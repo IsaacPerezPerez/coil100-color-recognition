@@ -1,0 +1,40 @@
+{
+  "scope": "training_only_leave_one_out_diagnostic_not_final_generalization",
+  "inventory_sha256_before": "0d50e33f53571f06bb7fa5a5efde24d4e3213d7a7e2793f80185a941664e5393",
+  "inventory_sha256_after": "0d50e33f53571f06bb7fa5a5efde24d4e3213d7a7e2793f80185a941664e5393",
+  "inventory_unchanged": true,
+  "original_split_rule_verified": true,
+  "train_count": 320,
+  "test_count_metadata_only": 1120,
+  "test_images_loaded": 0,
+  "config": {
+    "background_threshold": 40
+  },
+  "selection_rule": "sort train by angle; select positions 0 and n//2 per object",
+  "empty_masks": 0,
+  "fallback_count": 0,
+  "maximum_histogram_sum_error": 1.1920928955078125e-07,
+  "references_per_loo_query": 319,
+  "loo": {
+    "RGB": {
+      "correct": 320,
+      "total": 320,
+      "accuracy": 1.0
+    },
+    "HSV": {
+      "correct": 320,
+      "total": 320,
+      "accuracy": 1.0
+    },
+    "CIELAB": {
+      "correct": 320,
+      "total": 320,
+      "accuracy": 1.0
+    }
+  },
+  "versions": {
+    "python": "3.13.7",
+    "numpy": "2.5.4",
+    "opencv": "4.14.0"
+  }
+}

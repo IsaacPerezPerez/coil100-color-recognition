@@ -1,0 +1,98 @@
+{
+  "scope": "phase4_diagnostics_do_not_replace_phase3b",
+  "seed": 20261017,
+  "training_references": 320,
+  "renamed_images": 6,
+  "renamed_comparisons": 18,
+  "rename_predictions_identical": true,
+  "official_neighbors_verified_from_pixels": 3360,
+  "minimum_distance_gaps": {
+    "RGB": 4.389762070897141e-05,
+    "HSV": 5.795448578471696e-05,
+    "CIELAB": 6.155069168345406e-05
+  },
+  "ties_within_1e_minus_12": {
+    "RGB": 0,
+    "HSV": 0,
+    "CIELAB": 0
+  },
+  "negative_control": {
+    "RGB": {
+      "correct": 30,
+      "total": 1120,
+      "accuracy": 0.026785714285714284
+    },
+    "HSV": {
+      "correct": 26,
+      "total": 1120,
+      "accuracy": 0.023214285714285715
+    },
+    "CIELAB": {
+      "correct": 26,
+      "total": 1120,
+      "accuracy": 0.023214285714285715
+    }
+  },
+  "saved_results_check": {
+    "spaces": {
+      "RGB": {
+        "predictions": 1120,
+        "diagonal_per_class": 56,
+        "metrics_consistent": true,
+        "confusion_figure_pixel_identical": true
+      },
+      "HSV": {
+        "predictions": 1120,
+        "diagonal_per_class": 56,
+        "metrics_consistent": true,
+        "confusion_figure_pixel_identical": true
+      },
+      "CIELAB": {
+        "predictions": 1120,
+        "diagonal_per_class": 56,
+        "metrics_consistent": true,
+        "confusion_figure_pixel_identical": true
+      }
+    },
+    "comparison_figure_pixel_identical": true,
+    "original_source_hashes_verified": true
+  },
+  "protected_files_sha256": {
+    "data/processed/inventory.csv": "0d50e33f53571f06bb7fa5a5efde24d4e3213d7a7e2793f80185a941664e5393",
+    "src/coil100/audit_training.py": "b7338dc0af3c710c0d9037411654bd55264ddcdabfc0b47483acb67878e8b872",
+    "src/coil100/classifier.py": "15165d91fda50e658b60bb48fb3651987fbe9e77ac20b12a2e5e10bd26eb8177",
+    "src/coil100/dataset.py": "58c5db204afbc2ab70dd75dfa1501cc32af204c32095686c29b6d2df1afab76c",
+    "src/coil100/evaluate.py": "ff73f518af029124f25d0038370abf78ae1712c176da273537d9950b5789c683",
+    "src/coil100/evaluation_plots.py": "f19104a04bc35c981446f4f6a9c2967744b91e61fb59612cdf624ae1912a34bb",
+    "src/coil100/features.py": "d3a420d640f4bddce038c70325d09483dacbb13b6e90ef5a7fa3a7e5d1e9695f",
+    "src/coil100/inspect_training.py": "ce0937898713490027df4bf01a71f90284243dcaa6ef12e8d5444f5d8f9e76a3",
+    "src/coil100/inventory.py": "9cde43b688c0286b87bd69c3fad5159f214bcbf70fa2b41e077dc7d47aad3d44",
+    "src/coil100/metrics.py": "32952fefaa7c7ba499a576995849f29d02b268fa8cf1ce6599e89137a5c0ce23",
+    "src/coil100/prepare.py": "def619596c3d4dc76d265cc7814893ff069e16ee12247228f5fd02f639e6ee14",
+    "src/coil100/preprocessing.py": "22dfdb3c3608d3fd40ce76bda065a547b7af6ec714cda722d46b92f896cda6bc",
+    "src/coil100/recognize.py": "bdc6f2eea87c878f0edbc407ea555861e7abeb5e6352d7ad930715f76931e941",
+    "src/coil100/verify_independent.py": "0c38ad4910ac87b55d2532a0c6f843633a384683bcafdb183f43f6933223d027",
+    "src/coil100/__init__.py": "24ba1c592f768c360402c3bb7c7cd6706e31e099508f1ba436dcb378f8dc07a5",
+    "artifacts/phase3b/comparison.png": "03c0b9bc962d880a2c789b9e3a8d32d25f3e42700bf48f8e64cd7b5e8a245e77",
+    "artifacts/phase3b/confusion_cielab.csv": "7d004a1f36274a18c68181f4b3e5f2b56e2ed79def988226d42a947aa49a9885",
+    "artifacts/phase3b/confusion_cielab.png": "ae626cce93b8788ee057fe9993c7d6eee2cb5432f9c697ab3a939b0fc70cbcd6",
+    "artifacts/phase3b/confusion_hsv.csv": "7d004a1f36274a18c68181f4b3e5f2b56e2ed79def988226d42a947aa49a9885",
+    "artifacts/phase3b/confusion_hsv.png": "f4770298b793c6eb704bfe522e2dc0376eff5ec842cfc990cb27b762ad0eb9d9",
+    "artifacts/phase3b/confusion_rgb.csv": "7d004a1f36274a18c68181f4b3e5f2b56e2ed79def988226d42a947aa49a9885",
+    "artifacts/phase3b/confusion_rgb.png": "75b3fee158b61728958a89d59a5c1333a754aaa5a524063de0ad18cee764eb0a",
+    "artifacts/phase3b/evaluation_metadata.json": "aab60ec987f85ee7264919d66914ac7b3c40b6db3923dade80227b4d31d1a47e",
+    "artifacts/phase3b/evaluation_notes.md": "8b15840574e1a3c9bbeb2228866c9fa0e584a1237c48af4d845ead2a62305846",
+    "artifacts/phase3b/image_sha256.csv": "19dc48047cddd07315e4898dc43aada9ffa54dd4edb500cd0e7e9e51442b536c",
+    "artifacts/phase3b/metrics_cielab.csv": "e7dc5d383c2ebac89b6048dea7ece14fb7d9249e1ee4fdbe06562875012398d1",
+    "artifacts/phase3b/metrics_hsv.csv": "e7dc5d383c2ebac89b6048dea7ece14fb7d9249e1ee4fdbe06562875012398d1",
+    "artifacts/phase3b/metrics_rgb.csv": "e7dc5d383c2ebac89b6048dea7ece14fb7d9249e1ee4fdbe06562875012398d1",
+    "artifacts/phase3b/predictions_cielab.csv": "c67a927114cd8e144a14f0760ae3082eb7c4c5482b63714f3c69cb3b079f4471",
+    "artifacts/phase3b/predictions_hsv.csv": "60949902cc659c75e36f6528ed252d79c757d251beb89964949ec318f50eecc7",
+    "artifacts/phase3b/predictions_rgb.csv": "e40ff18e48be94aee5cfee08795df3aca95c5ef212b32ffc5098f3103475d3c0",
+    "artifacts/phase3b/summary.csv": "a82bc13e187678753064bca6cf1b6eaf96b6dbf0cec16dbe24fdced5444167ff",
+    "artifacts/phase3b/unit_tests.txt": "7db02635ea8e5a5b3b9b9d7859ebc256bc1dca5263a577de1128106e99b0c089"
+  },
+  "protected_files_unchanged": true,
+  "tie_caveat": "Reference labels, angles and paths order exact ties; query metadata is not passed to inference.",
+  "historical_limit": "Source inspection, prior artifacts and controls support no test-based tuning; this is not a complete external history audit."
+}

@@ -1,0 +1,4 @@
+color_space,correct,total,accuracy,error,precision_macro,recall_macro,f1_macro
+RGB,1120,1120,1.0,0.0,1.0,1.0,1.0
+HSV,1120,1120,1.0,0.0,1.0,1.0,1.0
+CIELAB,1120,1120,1.0,0.0,1.0,1.0,1.0

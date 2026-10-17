@@ -1,0 +1,102 @@
+{
+  "scope": "held_out_views_of_the_same_20_physical_objects",
+  "started_utc": "2026-10-17T19:18:34.810162+00:00",
+  "inventory_sha256_before": "0d50e33f53571f06bb7fa5a5efde24d4e3213d7a7e2793f80185a941664e5393",
+  "method_sha256_before": {
+    "dataset.py": "58c5db204afbc2ab70dd75dfa1501cc32af204c32095686c29b6d2df1afab76c",
+    "inventory.py": "9cde43b688c0286b87bd69c3fad5159f214bcbf70fa2b41e077dc7d47aad3d44",
+    "preprocessing.py": "22dfdb3c3608d3fd40ce76bda065a547b7af6ec714cda722d46b92f896cda6bc",
+    "features.py": "d3a420d640f4bddce038c70325d09483dacbb13b6e90ef5a7fa3a7e5d1e9695f",
+    "classifier.py": "15165d91fda50e658b60bb48fb3651987fbe9e77ac20b12a2e5e10bd26eb8177"
+  },
+  "git_revision": null,
+  "versions": {
+    "python": "3.13.7",
+    "numpy": "2.5.4",
+    "opencv-python-headless": "4.14.0.94",
+    "Pillow": "12.3.0",
+    "matplotlib": "3.11.2"
+  },
+  "config": {
+    "segmentation": {
+      "background_threshold": 40
+    },
+    "bins_per_channel": 8,
+    "feature_length": 512,
+    "normalization": "L1",
+    "histogram_ranges": {
+      "RGB": [
+        0,
+        256,
+        0,
+        256,
+        0,
+        256
+      ],
+      "HSV": [
+        0,
+        180,
+        0,
+        256,
+        0,
+        256
+      ],
+      "CIELAB": [
+        0,
+        256,
+        0,
+        256,
+        0,
+        256
+      ]
+    },
+    "classifier": "1-NN",
+    "distance": "cv2.HISTCMP_BHATTACHARYYA",
+    "class_order": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "zero_division": 0
+  },
+  "train_count": 320,
+  "test_count": 1120,
+  "evaluation_source_sha256": {
+    "evaluate.py": "ff73f518af029124f25d0038370abf78ae1712c176da273537d9950b5789c683",
+    "metrics.py": "32952fefaa7c7ba499a576995849f29d02b268fa8cf1ce6599e89137a5c0ce23",
+    "evaluation_plots.py": "f19104a04bc35c981446f4f6a9c2967744b91e61fb59612cdf624ae1912a34bb"
+  },
+  "recognition_seconds": 5.387282100000448,
+  "inventory_sha256_after": "0d50e33f53571f06bb7fa5a5efde24d4e3213d7a7e2793f80185a941664e5393",
+  "method_sha256_after": {
+    "dataset.py": "58c5db204afbc2ab70dd75dfa1501cc32af204c32095686c29b6d2df1afab76c",
+    "inventory.py": "9cde43b688c0286b87bd69c3fad5159f214bcbf70fa2b41e077dc7d47aad3d44",
+    "preprocessing.py": "22dfdb3c3608d3fd40ce76bda065a547b7af6ec714cda722d46b92f896cda6bc",
+    "features.py": "d3a420d640f4bddce038c70325d09483dacbb13b6e90ef5a7fa3a7e5d1e9695f",
+    "classifier.py": "15165d91fda50e658b60bb48fb3651987fbe9e77ac20b12a2e5e10bd26eb8177"
+  },
+  "predictions_per_space": {
+    "RGB": 1120,
+    "HSV": 1120,
+    "CIELAB": 1120
+  },
+  "prediction_count": 3360,
+  "completed_utc": "2026-10-17T19:18:41.763482+00:00"
+}

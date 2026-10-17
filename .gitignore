@@ -1,0 +1,41 @@
+# Dataset: solo se versiona el inventario numérico
+/data/raw/
+/data/processed/*
+!/data/processed/inventory.csv
+
+# Evidencias locales que reproducen fotografías de COIL-100
+/artifacts/phase2/
+/artifacts/phase3a/*.png
+/artifacts/phase4/package_verification.json
+/artifacts/phase4_reproduction/
+/artifacts/phase3b_reproduction/
+/artifacts/phase3a_reproduction/
+**/segmentation_*.png
+**/train_mask_*.png
+
+# Python y configuración local
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Entregas y temporales
+*.zip
+*.zip.*
+*.pdf
+*.docx
+*.tmp
+*.temp
+*.partial
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
